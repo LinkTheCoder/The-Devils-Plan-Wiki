@@ -3,16 +3,26 @@
  * and scoped locally.
  */
 
-.heroBanner {
-  padding: 4rem 0;
+ .heroBanner {
+  margin-bottom: 3rem;
+  padding: 25rem;
   text-align: center;
   position: relative;
   overflow: hidden;
+  background-image: url('../../static/img/bg.png');
+  background-size: cover;
+  background-position: center;
 }
 
-@media screen and (max-width: 996px) {
+html[data-theme='light'] .heroBanner {
+  background-image: url('../../static/img/bg-light.png') !important;
+}
+
+@media screen and (max-width: 425px) {
   .heroBanner {
-    padding: 2rem;
+    height: 35rem !important;
+    padding: 0;
+    background-image: url('../../static/img/bg-mobile.png') !important;
   }
 }
 
