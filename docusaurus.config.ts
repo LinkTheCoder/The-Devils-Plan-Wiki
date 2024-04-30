@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: "The Devil's Plan Wiki",
-  tagline: 'Solving the mystery of the devil',
+  tagline: 'Database of the popular Netflix series',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -85,8 +85,8 @@ const config: Config = {
           title: 'Docs',
           items: [
             {
-              label: 'Tutorial',
-              to: '/docs/intro',
+              label: 'Season 1',
+              to: '/docs/season-1',
             },
           ],
         },
@@ -112,7 +112,7 @@ const config: Config = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/LinkTheCoder/The-Devils-Plan-Wiki',
             },
           ],
         },
