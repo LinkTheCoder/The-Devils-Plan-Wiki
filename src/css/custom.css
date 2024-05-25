@@ -70,3 +70,26 @@ html[data-theme='light'] .navbar{
   --ifm-color-primary-lightest: #ffffff;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+
+@media screen and (max-width: 768px) {
+.footer .footer__col:first-child {
+  text-align: center !important;
+}
+}
+
+@media screen and (max-width: 768px) {
+  .footer .footer__col:nth-child(2) {
+    text-align: center !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer .footer__col:last-child {
+    text-align: center !important;
+  }
+}
+
+  .footer .footer__copyright {
+    margin-top:50px !important;
+  }

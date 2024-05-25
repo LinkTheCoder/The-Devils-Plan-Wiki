@@ -5,13 +5,17 @@
 
  .heroBanner {
   margin-bottom: 3rem;
-  padding: 25rem;
+  height: 110vh; /* Make the banner take full viewport height */
+  display: flex;
+  align-items: center; /* Center content vertically */
+  justify-content: center; /* Center content horizontally */
   text-align: center;
   position: relative;
   overflow: hidden;
   background-image: url('../../static/img/bg.png');
-  background-size: cover;
-  background-position: center;
+  background-size: cover; /* Ensure the image covers the entire area */
+  background-position: center; /* Center the image */
+  padding-bottom: 5rem; /* Add padding at the bottom */
 }
 
 html[data-theme='light'] .heroBanner {
@@ -21,9 +25,10 @@ html[data-theme='light'] .heroBanner {
 @media screen and (max-width: 425px) {
   .heroBanner {
     height: 35rem !important;
-    padding: 0;
-    background-size: cover;
-    background-image: url('../../static/img/bg-mobile.png') !important; 
+    padding: 0 0 5rem 0; /* Add padding at the bottom */
+    background-size: cover; /* Ensure the image covers the entire area */
+    background-image: url('../../static/img/bg-mobile.png') !important;
+    margin-bottom: 1rem !important;
   }
 }
 
