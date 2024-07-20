@@ -117,7 +117,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Website made with 💜 by Link Häggman.`,
+      copyright: `Website made with 💜 by LinkTheCoder.`,
     },
     prism: {
       theme: prismThemes.github,
